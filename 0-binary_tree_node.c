@@ -1,11 +1,10 @@
-#include <stdlib.h>
 #include "binary_trees.h"
 
 /**
  * binary_tree_node - create a new binary tree node
  * @parent: the parnet pointer for the new tree.
  * @value: value parent value.
- * Return: pointer to the new created binary tree.
+ * Return: pointer to the new created binary tree or NULL if it failed.
  */
 
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
